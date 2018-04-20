@@ -1,0 +1,480 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/axis/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/static/axis/images/favicon.png" type="image/x-icon">
+    <script data-pace-options='{ "ajax": false }' src="about/pace.js"></script>
+    <link href="about/loading-bar.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/avgrund/0.1.0/js/avgrund.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114363979-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114363979-1');
+</script>
+
+    <script src="about/jquery.min.js"></script>
+    <script src="about/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="about/custom.js"></script>
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script src="about/lobibox.min.js"></script>
+  <script src="about/notifications.min.js"></script>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="about/lobibox.min.css"/>
+  <link href="about/top_navbar_base.css" type="text/css" rel="stylesheet">
+  <link href="about/linkstyles.css" type="text/css" rel="stylesheet">
+  <link href="about/dropdown.css" type="text/css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" type="text/css" href="about/updates.css">
+
+    
+    <title>About Us | EKATHRA'18</title>
+    <meta name="keywords" content="Axis,About Axis,About Techfest VNIT, VNIT Techfest,NIT Nagpur Techfest,Nagpur Techfest,Central India Techfest,Central India Biggest Techfest,etc">
+    <meta name="description" content="Axis is the biggest technical festival of Central India.">
+
+
+
+
+   <script>
+       $(document).ready(function() {
+
+            setTimeout(function(){
+                $('#loader').hide();
+                Pace.stop();
+                document.getElementById("body-id").style.overflowY = "scroll";
+            }, 0);
+
+            // $('#loader-wrapper').css({visibility: 'hidden'})
+
+        });
+       
+       
+       
+       
+       
+        function bounced() {
+            var element = document.getElementById("bouncing");
+            element.classList.remove("bounce");
+}
+   </script>
+
+    <style>
+
+        .modal-header{
+            padding-bottom: 0;
+        }
+        .modal-body{
+            padding-top: 0;
+        }
+        .bounce {
+            -moz-animation: bounce 3s infinite;
+            -webkit-animation: bounce 3s infinite;
+            animation: bounce 3s infinite;
+        }
+        @-moz-keyframes bounce {
+          0%, 20%, 50%, 80%, 100% {
+            -moz-transform: translateY(0);
+            transform: translateY(0);
+          }
+          40% {
+            -moz-transform: translateY(-20px);
+            transform: translateY(-20px);
+          }
+          60% {
+            -moz-transform: translateY(-10px);
+            transform: translateY(-10px);
+          }
+        }
+        @-webkit-keyframes bounce {
+          0%, 20%, 50%, 80%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+          }
+          40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+          }
+          60% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+          }
+        }
+        @keyframes bounce {
+          0%, 20%, 50%, 80%, 100% {
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+          }
+          40% {
+            -moz-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+            -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+          }
+          60% {
+            -moz-transform: translateY(-15px);
+            -ms-transform: translateY(-15px);
+            -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+          }
+        }
+
+
+
+        #navbardropdown
+        {
+             margin: 1.2% 1.9%;
+            outline: none;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 400;
+            text-shadow: 0 0 1px rgba(255,255,255,0.3);
+            font-size: 1.1em;
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+        #navbardropdown a:hover,#navbardropdown a:focus
+        {outline: none;text-decoration: none; color: #FFFFFF;
+        }
+
+        #navbardropdown li a:hover,#navbardropdown li a:focus
+        {
+                color: black;
+            letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 0.9em;
+        }
+        #navbardropdown li a,#navbardropdown li a
+        {
+                color: white;
+            letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body  id="body-id" >
+
+
+
+    
+        <script>Pace.start();</script>
+       <div id="loader" style="background-color:black;">
+          <div class="container">
+      <div class="image_preloader row">
+          <div class="col-md-offset-4 col-md-4 ">
+            <img src="/static/axis/images/axis-preloader-final.png">
+          </div>
+      </div>
+      </div></div>
+
+
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
+        <section class="color-1" style="position: relative;">
+        <nav class="cl-effect-20">
+            <span style="font-size:33px;margin-top: 13px; margin-left: 15px; float: left; cursor:pointer; color: #bfc0c1;" onclick="openNav()">&#9776;</span>
+            
+            <a href="about.html"><span data-hover="ABOUT US">ABOUT US</span></a>
+            <a href="events.html"><span data-hover="EVENTS">EVENTS</span></a>
+			<a href="cultural.html"><span data-hover="CULTURALS">CULTURALS</span></a>
+           
+
+            <a  href="/"><img src="home/logo.png" width="50px" height="50px"></a>
+            
+            <a href="contact.html"><span data-hover="CONTACT US">CONTACT US</span></a>
+			
+            <a href="sponsors.html"><span data-hover="SPONSORS">SPONSORS</span></a>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSelIF0lc9nu-CM3L0cksKXSxuu0HyjnRUUkr2tpZ94cGrvUCA/viewform?entry.2140531720&entry.1828877277&entry.403518547&entry.812380367&entry.956689595"><span data-hover="REGISTER">REGISTER</span></a>
+            
+        </nav>
+    </section>
+    
+<div id="myNav" class="overlay"  style="font-family: 'Quicksand', sans-serif;">
+  <a href="javascript:void(0)" class="closebtn" style="color: #c5c2b8;" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+     <ul style="list-style: none; margin-left: -30px;">
+     
+     <li><a href="/" class="link link--kukuri" data-letters="HOME">HOME</a></li>
+    <li><a href="about.html" class="link link--kukuri" data-letters="ABOUT US">ABOUT US</a></li>
+    
+
+    <li><a href="events.html" class="link link--kukuri" data-letters="EVENTS">EVENTS</a></li>
+	<li><a href="cultural.html" class="link link--kukuri" data-letters="CULTURALS">CULTURALS</a></li>
+    
+     <li><a href="contact.html" class="link link--kukuri" data-letters="CONTACT US">CONTACT US</a></li>     
+
+     <li><a href="sponsors.html" class="link link--kukuri" data-letters="SPONSORS">SPONSORS</a></li>
+	 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSelIF0lc9nu-CM3L0cksKXSxuu0HyjnRUUkr2tpZ94cGrvUCA/viewform?entry.2140531720&entry.1828877277&entry.403518547&entry.812380367&entry.956689595" class="link link--kukuri" data-letters="REGISTER">REGISTER</a></li>
+      
+
+     
+        
+     
+    </ul>
+
+  </div>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+$('.dropdown').on('show.bs.dropdown', function(e){
+  $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+});
+
+$('.dropdown').on('hide.bs.dropdown', function(e){
+  $(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+});
+</script>
+
+     
+
+
+      <script>
+          $(document).ready(function() {
+
+          if(window.location.href.indexOf('#login') != -1) {
+            $('#login').modal('show');
+          }
+        });
+          $(document).ready(function() {
+
+          if(window.location.href.indexOf('#myProfile') != -1) {
+            $('#myProfile').modal('show');
+          }
+        });
+          $(document).ready(function() {
+
+          if(window.location.href.indexOf('#myEvents') != -1) {
+            $('#myEvents').modal('show');
+          }
+        });
+          $(document).ready(function() {
+          if(window.location.href.indexOf('#signup') != -1) {
+            $('#signup').modal('show');
+          }
+        });
+
+      </script>
+<script>
+        $(document).ready(function() {
+
+
+
+         });
+	</script>
+<script>
+    $(document).ready(function() {
+
+          $('#id_login').click(function() {
+              $('#login').modal('show');
+          });
+          $('#id_myprofile').click(function() {
+              $('#myProfile').modal('show');
+          });
+            $('#id_myprofile2').click(function() {
+              $('#myProfile').modal('show');
+          });
+
+          $('#id_login2').click(function() {
+              $('#login').modal('show');
+          });
+          $('#id_login3').click(function() {
+              $('#login').modal('show');
+          });
+          $('#id_myevents').click(function() {
+              $('#myEvents').modal('show');
+          });
+	    $('#id_myevents2').click(function() {
+              $('#myEvents').modal('show');
+          });
+          $('#modal_close_events').click(function() {
+              $('#myEvents').modal('hide');
+          });
+          $('#modal_close').click(function() {
+              $('#login').modal('hide');
+          });
+          $('#id_signup').click(function() {
+              $('#signup').modal('show');
+          });
+	        $('#id_signup2').click(function() {
+              $('#signup').modal('show');
+          });
+        $('#id_signup3').click(function() {
+              $('#login').modal('hide');
+              $('#signup').modal('show');
+
+          });
+          $('#modal_close_signup').click(function() {
+              $('#signup').modal('hide');
+          });
+        $('#modal_close_myprofile').click(function() {
+              $('#myProfile').modal('hide');
+          });
+    });
+</script>
+      <script>
+          $(document).ready(function() {
+
+          if(window.location.href.indexOf('#signup') != -1) {
+            $('#signup').modal('show');
+          }
+
+        });
+      </script>
+      <script>
+          $(document).ready(function() {
+
+          if(window.location.href.indexOf('#myEvents') != -1) {
+            $('#myEvents').modal('show');
+          }
+
+        });
+      </script>
+      <script src="about/validation.js"></script>
+
+
+
+<script>
+
+
+[].slice.call(document.querySelectorAll('.dropdown .nav-link')).forEach(function(el){
+    el.addEventListener('click', onClick, false);
+});
+
+function onClick(e){
+    e.preventDefault();
+    var el = this.parentNode;
+    el.classList.contains('show-submenu') ? hideSubMenu(el) : showSubMenu(el);
+}
+
+function showSubMenu(el){
+    el.classList.add('show-submenu');
+    document.addEventListener('click', function onDocClick(e){
+
+        if(el.contains(e.target)){
+            return;
+        }
+        document.removeEventListener('click', onDocClick);
+        hideSubMenu(el);
+    });
+}
+
+function hideSubMenu(el){
+    el.classList.remove('show-submenu');
+}
+
+</script>
+
+<script>
+    $("#signup_form").submit(function()
+     {
+         if($("#signup_form").valid()) {
+             $("#signup_submit", this)
+                 .val("Please Wait...")
+                 .attr('disabled', 'disabled');
+         }
+        return true;
+      });
+
+    $("#login_form").submit(function()
+     {
+         if($("#login_form").valid()) {
+             $("#login_submit", this)
+                 .val("Please Wait...")
+                 .attr('disabled', 'disabled');
+         }
+        return true;
+      });
+</script>
+
+
+
+    <div class="container">
+    <h1 style="text-align: center; font-family: Raleway, sans-serif; color: #c5c2b8;">ABOUT US</h1>
+    <div class="row">
+
+            <div class="panel-group" id="accordion" style="opacity: 0.9; padding-right: 10px; padding-left: 10px;">
+                              <div class="panel panel-default" style="margin-bottom: 20px;">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title" style="text-align: right">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#about">
+                                        About Us
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="about" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                      <div class="row">
+
+                                            <div class="col-md-offset-2 col-lg-offset-2 col-lg-8 col-md-8" style="margin-top: 0">
+                                                <div>
+                                                    <h3 style="margin-top: 0">About EKATHRA</h3>
+                                                    <p style="color: #0e0e0e" align="justify">
+                                                        EKATHRA, is the annual technical and cultural festival of GVPCOE(A). Held towards the beginning of March every year, it attracts a whopping crowd of over 10,000 students from more than 100 colleges statewide. EKATHRA is devoted to creating an unforgettable experience for all its visitors, simultaneously providing unique opportunities to the youth for showcasing their talents in front of extremely large audiences and top-notch judges. Being a massive platform for providing technical knowledge and cultural exchange, Ekathra 2018 is ready to take all its visitors on a delightful ride. The 3rd edition of the festival will be held from the 8th March to 9th March, 2018. Join us for a glorious carnival!<br><br>
+                                                        With a plethora of events encompassing a wide variety of fields like Automation and Robotics, Construction and Design, Software and Electronics, Management and many more, EKATHRA attracts some of the brightest and most creative young minds from all over India. Various workshops are also organized every year, under expert guidance, to keep students up to date with latest technology.<br><br>
+                                                        Other major attractions for audiences have been the proshows like Dances, Musical events and comedy shows, which have always been crowd pullers. Acts like Doomsday, Rock Band, Photography events and many more. EKATHRA also conducts social initiatives year round aiming to bring the rich technical knowledge of the students and infrastructure at their disposal to benefit the less fortunate. These social initiatives are done with the assistance of organizations like ROTRACT, NATIONAL SERVICE SCHEME, etc.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
